@@ -1,15 +1,15 @@
-import Contador from './components/contador';
-
+import Contador from './components/Contador';
 import './App.css';
 function App() {
   return (
     <div style={{ textAlign: 'center', marginTop: '50px' }}>
       <h1>Contadores Personalizados</h1>
-      <Contador titulo="Contador A" numero={0} id="contador-a"/>
-      <Contador titulo="Contador B" numero={10} id="contador-b"/>
-      <Contador titulo="Contador C" numero={100} id="contador-c"/>
+      <Contador titulo="Contador lento" inicio={5} paso={1} />
+      <Contador titulo="JEREMY" numero={10} id="- Hola"/>
+      <Contador titulo="Contador B" numero={80} id="- Hola"/>
     </div>
   );
 }
 
 export default App;
+
